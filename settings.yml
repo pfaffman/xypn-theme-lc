@@ -1,0 +1,48 @@
+xypn_header_title:
+    default: "XYPN Community"
+    description: "XYPN Header Title"
+xypn_header_description:
+    default: ""
+    description: "XYPN Header Description"
+xypn_header_background_left:
+    default: ""
+    description: "XYPN Header Background Image URL - Left Side"
+xypn_header_background_right:
+    default: ""
+    description: "XYPN Header Background Image URL - Right Side"
+xypn_header_nav_text_1:
+    default: ""
+    description: "Nav item 1 - title"
+xypn_header_nav_link_1:
+    default: ""
+    description: "Nav item 1 - URL"
+xypn_header_nav_text_2:
+    default: ""
+    description: "Nav item 2 - title"
+xypn_header_nav_link_2:
+    default: ""
+    description: "Nav item 2 - URL"
+xypn_header_nav_text_3:
+    default: ""
+    description: "Nav item 3 - title"
+xypn_header_nav_link_3:
+    default: ""
+    description: "Nav item 3 - URL"
+xypn_header_nav_text_4:
+    default: ""
+    description: "Nav item 4 - title"
+xypn_header_nav_link_4:
+    default: ""
+    description: "Nav item 4 - URL"
+xypn_header_nav_text_5:
+    default: ""
+    description: "Nav item 5 - title"
+xypn_header_nav_link_5:
+    default: ""
+    description: "Nav item 5 - URL"
+strikethrough_icon:
+  default: "strikethrough"
+  description: "Strikethrough FA Icon"
+underline_icon:
+  default: "underline"
+  description: "Underline FA Icon"

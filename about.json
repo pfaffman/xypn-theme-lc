@@ -1,0 +1,32 @@
+{
+  "name": "XY Planning Network - Theme--procourse",
+  "component": true,
+  "license_url": "",
+  "about_url": "",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "left-image": "assets/left-image.png",
+    "right-image": "assets/right-image.png",
+    "discourse-icons-6": "assets/discourse-icons-6.png"
+  },
+  "color_schemes": {
+    "XYPN": {
+      "primary": "383838",
+      "secondary": "ffffff",
+      "tertiary": "21be5c",
+      "quaternary": "666666",
+      "header_background": "ffffff",
+      "header_primary": "484848",
+      "highlight": "efe5bb",
+      "danger": "96000e",
+      "success": "21be5c",
+      "love": "21be5c"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

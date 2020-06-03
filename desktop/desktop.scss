@@ -1,0 +1,17 @@
+@media (min-width: 1200px) {
+    .banner-visible {
+        body {
+            margin-top: -25px;
+        }
+
+        .banner {
+            margin-top: 25px;
+            width: 1080px;
+            background-image: url($xypn_header_background_left),url($xypn_header_background_right);
+            background-position: left center, right center;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+    }
+}

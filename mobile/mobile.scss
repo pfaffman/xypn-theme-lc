@@ -1,0 +1,26 @@
+.mobile-view {
+    &.banner-visible {
+        .xypn-header .banner {
+            margin: -14px auto 0 auto;   
+        }
+    }
+    .xypn-footer {
+        .wrap, .footer-content {
+            flex-direction: column;
+        }
+        .wrap {
+            padding: 20px;
+        }
+        .footer-title {
+            left: 0;
+        }
+        .footer-content {
+            width: calc(100vw - 40px);
+            text-align: left;
+        }
+        .column {
+            margin-bottom: 20px;
+        }
+    }
+}
+
