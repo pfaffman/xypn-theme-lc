@@ -40,6 +40,9 @@ xypn_header_nav_text_5:
 xypn_header_nav_link_5:
     default: ""
     description: "Nav item 5 - URL"
+thinkific_button_text:
+    default: ""
+    description: "Thinkific button text"
 strikethrough_icon:
   default: "strikethrough"
   description: "Strikethrough FA Icon"
