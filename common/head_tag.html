@@ -22,11 +22,15 @@
             component.set('xypn_header_nav_text_3', settings.xypn_header_nav_text_3);
             component.set('xypn_header_nav_text_4', settings.xypn_header_nav_text_4);
             component.set('xypn_header_nav_text_5', settings.xypn_header_nav_text_5);
+            component.set('thinkific_button_text', settings.thinkific_button_text);
             component.set('xypn_header_nav_link_1', settings.xypn_header_nav_link_1);
             component.set('xypn_header_nav_link_2', settings.xypn_header_nav_link_2);
             component.set('xypn_header_nav_link_3', settings.xypn_header_nav_link_3);
             component.set('xypn_header_nav_link_4', settings.xypn_header_nav_link_4);
             component.set('xypn_header_nav_link_5', settings.xypn_header_nav_link_5);
+            var user = api.getCurrentUser();
+            var url = user.thinkific_redirect_url || "";
+            component.set('thinkific_button_url', url);
 	        const router = api.container.lookup('router:main');
             router.on('willTransition', () => {
                 component.set('displayBanner', false);
@@ -72,6 +76,9 @@
                 {{#if xypn_header_nav_text_5}}
                     <a href="{{xypn_header_nav_link_5}}" target="_blank">{{xypn_header_nav_text_5}}</a>
                 {{/if}}
+                {{#if thinkific_button_text}}
+                <a href="{{thinkific_button_url}}" target="_blank">{{thinkific_button_text}}</a>
+            {{/if}}
             </p>
     </div>
     {{plugin-outlet name="header-engagement-pathway"}}
