@@ -1,38 +1,38 @@
 xypn_header_title:
-    default: "XYPN Community"
+    default: "XYPN Member Forums"
     description: "XYPN Header Title"
 xypn_header_description:
     default: ""
     description: "XYPN Header Description"
 xypn_header_background_left:
-    default: ""
+    default: "https://community.xyplanningnetwork.com/uploads/default/original/2X/8/870e8ae754eb871cc70429c02b5f560cd26ed6ee.png"
     description: "XYPN Header Background Image URL - Left Side"
 xypn_header_background_right:
-    default: ""
+    default: "https://community.xyplanningnetwork.com/uploads/default/original/2X/2/2949fbe9b25ddcf617e4b0f060c6e5252647a0de.png"
     description: "XYPN Header Background Image URL - Right Side"
 xypn_header_nav_text_1:
-    default: ""
+    default: "Member Calendar 🗓"
     description: "Nav item 1 - title"
 xypn_header_nav_link_1:
-    default: ""
+    default: "https://calendar.google.com/calendar/embed?src=xyplanningnetwork.com_k3csuvu0eijmok6gfkf2qrcfkg%40group.calendar.google.com&ctz=America%2FDenver"
     description: "Nav item 1 - URL"
 xypn_header_nav_text_2:
-    default: ""
+    default: "Academy 🎓"
     description: "Nav item 2 - title"
 xypn_header_nav_link_2:
-    default: ""
+    default: "http://www.xypnacademy.com"
     description: "Nav item 2 - URL"
 xypn_header_nav_text_3:
-    default: ""
+    default: "Member Map 📍"
     description: "Nav item 3 - title"
 xypn_header_nav_link_3:
-    default: ""
+    default: "https://www.google.com/maps/d/u/0/viewer?mid=1OP939o3XgCsLmXYAVOsawPok6eY&ll=41.80415423113119%2C-112.24183935000002&z=2"
     description: "Nav item 3 - URL"
 xypn_header_nav_text_4:
-    default: ""
+    default: "#XYPNLIVE 🎉"
     description: "Nav item 4 - title"
 xypn_header_nav_link_4:
-    default: ""
+    default: "https://live.xyplanningnetwork.com/"
     description: "Nav item 4 - URL"
 xypn_header_nav_text_5:
     default: ""
@@ -41,7 +41,7 @@ xypn_header_nav_link_5:
     default: ""
     description: "Nav item 5 - URL"
 thinkific_button_text:
-    default: ""
+    default: "!!Academy 🎓"
     description: "Thinkific button text"
 strikethrough_icon:
   default: "strikethrough"

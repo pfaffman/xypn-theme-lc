@@ -64,6 +64,9 @@
                 {{#if xypn_header_nav_text_1}}
                     <a href="{{xypn_header_nav_link_1}}" target="_blank">{{xypn_header_nav_text_1}}</a>
                 {{/if}}
+                {{#if thinkific_button_text}}
+                <a href="{{thinkific_button_url}}" target="_blank">{{thinkific_button_text}}</a>
+                {{/if}}
                 {{#if xypn_header_nav_text_2}}
                     <a href="{{xypn_header_nav_link_2}}" target="_blank">{{xypn_header_nav_text_2}}</a>
                 {{/if}}
@@ -76,9 +79,6 @@
                 {{#if xypn_header_nav_text_5}}
                     <a href="{{xypn_header_nav_link_5}}" target="_blank">{{xypn_header_nav_text_5}}</a>
                 {{/if}}
-                {{#if thinkific_button_text}}
-                <a href="{{thinkific_button_url}}" target="_blank">{{thinkific_button_text}}</a>
-            {{/if}}
             </p>
     </div>
     {{plugin-outlet name="header-engagement-pathway"}}
