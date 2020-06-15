@@ -1,8 +1,8 @@
 {
-  "name": "XY Planning Network - Theme--procourse",
+  "name": "XY Planning Network - Theme--Literate Computing",
   "component": true,
   "license_url": "",
-  "about_url": "",
+  "about_url": "https://github.com/pfaffman/xypn-theme-lc",
   "authors": null,
   "theme_version": null,
   "minimum_discourse_version": null,
