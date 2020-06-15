@@ -17,10 +17,10 @@ xypn_header_nav_link_1:
     default: "https://calendar.google.com/calendar/embed?src=xyplanningnetwork.com_k3csuvu0eijmok6gfkf2qrcfkg%40group.calendar.google.com&ctz=America%2FDenver"
     description: "Nav item 1 - URL"
 xypn_header_nav_text_2:
-    default: "Academy 🎓"
+    default: ""
     description: "Nav item 2 - title"
 xypn_header_nav_link_2:
-    default: "http://www.xypnacademy.com"
+    default: ""
     description: "Nav item 2 - URL"
 xypn_header_nav_text_3:
     default: "Member Map 📍"
