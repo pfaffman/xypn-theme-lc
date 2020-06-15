@@ -29,7 +29,7 @@
             component.set('xypn_header_nav_link_4', settings.xypn_header_nav_link_4);
             component.set('xypn_header_nav_link_5', settings.xypn_header_nav_link_5);
             var user = api.getCurrentUser();
-            var url = user.thinkific_redirect_url || "";
+            var url = user ? user.thinkific_redirect_url : "";
             component.set('thinkific_button_url', url);
 	        const router = api.container.lookup('router:main');
             router.on('willTransition', () => {
